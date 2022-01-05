@@ -16,6 +16,12 @@ intro = "Dat is toch een leuk spel zeg dat ${titel}"
 println intro
 
 
+// Stiekem wordt de zogeheten 'GString' klasse gebruikt achter de schermen ipv 'String':
+name = "Stijn"
+resultaat = "Ik ben ${name}!"
+assertEquals("Ik ben Stijn!", result) // levert 'false' op, omdat 'result' naar .toString() moet worden omgezet
+
+
 // Variabele maken mag ook met def. Handiger bij gebruik meerdere threads (CPU cores):
 def titel = 'Qwixx'
 def intro = "Dat is toch een leuk spel zeg dat ${titel}"
