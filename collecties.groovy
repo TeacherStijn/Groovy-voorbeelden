@@ -33,6 +33,13 @@ auto.kleur = "Zilvergrijs"
 
 println auto
 
+// Nieuwe lege map maken kan met  [:]
+
+
+// Let op: de keys zijn impliciet Strings! Dus wil je daar een variabele hebben (als key naam),
+// dan moeten we de naam 'escapen' middels een setje (). Dus: [(prop): 'Janssen', leeftijd: 38]
+
+
 auto.each { e->println e }
 
 // implementatie met zowel twee als drie argumenten mogelijk:
