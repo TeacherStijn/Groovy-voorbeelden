@@ -1,4 +1,4 @@
-System.in.withReader {
+System.in.withReader ({
 	console -> {
 		println "Geef uw keuze op:"
 		println "1> "
@@ -6,6 +6,6 @@ System.in.withReader {
 		println "3> "
 		println "4> "				
 		def invoer = console.readLine()
-		println invoer
+		println "Je keuze was: ${invoer}"
 	}
-}
+})
