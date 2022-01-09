@@ -9,3 +9,8 @@ System.in.withReader ({
 		println "Je keuze was: ${invoer}";
 	}
 })
+
+
+// Of korter (en wat eenvoudiger zonder 'Closure':
+
+// System.in.newReader().readLine(); 
