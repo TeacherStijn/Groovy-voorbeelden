@@ -1,0 +1,3 @@
+module hoofdmodule {
+	requires hulpmodule;
+}

@@ -5,6 +5,7 @@ class Overriding {
 		
 		System.out.println(a1);
 		System.out.println(a1.equals(a2));
+		// In Groovy 3.0 kun je === gebruiken ipv equals() 
 	}
 }
 
