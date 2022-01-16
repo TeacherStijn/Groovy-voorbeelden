@@ -47,7 +47,6 @@ while (invoer != 'q') {
 	invoer = System.in.newReader().readLine();
 }
 
-
 def toon () {
 	if (producten.size() > 0) {
 		producten.eachWithIndex { e,i -> println "${i})${e}" }; 
