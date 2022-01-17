@@ -1,0 +1,3 @@
+args.each {
+	println it
+}
