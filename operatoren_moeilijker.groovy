@@ -1,17 +1,23 @@
 //
 // Ternary ? : en Elvis ?: operator 
 //
-final APIKEY = "ASFS43543lrk84jRr"
-def login = false
-def invoer = APIKEY
+final APIKEY = "ASFS43543lrk84jRr";
+def login = false;
+def invoer = APIKEY;
 
 if (invoer == APIKEY) { 
-	login = true 
+	login = true ;
 } else {
-	login = false
+	login = false;
 }
 
-println login
+// korte versie dus: 
+login = (invoer==APIKEY)?true:false
+
+println login;
+
+
+
 
 
 
