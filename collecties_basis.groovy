@@ -30,4 +30,8 @@ lijstje.eachWithIndex({
 
 
 
+def lijst = [];
 
+def melding = lijst.isEmpty()?"hij is leeg":"niet leeg";
+
+println (melding);
